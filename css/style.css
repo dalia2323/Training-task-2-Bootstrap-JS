@@ -39,7 +39,6 @@
     position: relative;
     display: inline-block;
 }
-
 .input-container i {
     position: absolute;
     left: 15px;
@@ -73,9 +72,6 @@ a:hover{
   color: #ffff;
 }
 @media screen and (max-width: 375px) {
-.mt-xs-4{
-    margin-top: 3rem;
-}
 .display-block-responsive{
   display: block !important;
 }
