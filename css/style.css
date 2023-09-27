@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+  overflow: hidden;
+}
+.w-22{
+    width: 22rem;
+}
+.input-group {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .input-group-text {
+    background-color: transparent;
+    border: none;
+  }
+  .form-control {
+    height: 3rem;
+    border: none !important;
+    border-radius: 5px;
+  }
+  .w-width{
+    max-width:80%!important ;
+  }
+  .bg-very-dark-blue{
+    background-color: #202c37;
+  }
+  .bg-dark-blue{
+    background:#2b3945
+}
+.custom-select::after {
+    border-color: white;
+  }
+  .input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.input-container i {
+    position: absolute;
+    left: 15px;
+    top: 40%;
+    transform: translateY(-50%);
+    color: #000000;
+}
+.input-container input {
+    padding-left: 25px;
+}
+::-webkit-input-placeholder {
+padding-left: 8%;
+}  
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+}
+.card-title{
+margin:.75rem 0;
+font-weight: bolder;
+  }
+  p{
+    line-height:1;
+    font-size: 14px;
+  }
+  a{
+    all:unset;
+    cursor: pointer;
+  }
+a:hover{
+  color: #ffff;
+}
+@media screen and (max-width: 375px) {
+.mt-xs-4{
+    margin-top: 3rem;
+}
+.display-block-responsive{
+  display: block !important;
+}
+  }
