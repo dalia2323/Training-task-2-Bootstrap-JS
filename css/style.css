@@ -57,14 +57,14 @@ padding-left: 8%;
 }  
 body{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
+    font-size: 14px;
 }
 .card-title{
 margin:.75rem 0;
 font-weight: bolder;
   }
   p{
-    line-height:1;
+    line-height:.5;
     font-size: 14px;
   }
   a{
@@ -73,6 +73,9 @@ font-weight: bolder;
   }
 a:hover{
   color: unset;
+}
+.card-style{
+  height:  19rem;
 }
 /*  */
 header{
@@ -116,20 +119,6 @@ body{
   color: #fff;
   border: 1px solid #555;
 }
-
-/* Add more styles for dark mode as needed */
-These styles will apply dark mode styling to the search class (which is your search input field) and the .category class (which is your <select> element).
-
-With these changes, when dark mode is active, the search input and select element will have a dark background and light text color to match the dark theme. Adjust the CSS styles as needed to achieve the desired appearance for these elements in dark mode.
-
-
-
-
-
-
-
-/* Add more styles for dark mode as needed */
-
 @media screen and (max-width: 375px) {
 .display-block-responsive{
   display: block !important;

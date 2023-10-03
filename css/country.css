@@ -39,6 +39,30 @@ ul{
     .country-border{
         text-align: center;
     }
+    /*  */
+    header{
+        background-color: #ffff;
+      }
+      body{
+        background-color: #fafafa;
+      }
+      .dark-mode {
+        background-color: #202c37;;
+        color: #fff;
+      }
+      
+      .dark-mode .navbar  {
+        background-color: #2b3945;
+        color: #fff;
+      }
+      .dark-mode #darkModeToggle{
+        color: #fff;
+      }
+      .dark-mode.back-button{
+        color: #fff;
+      }
+
+    
     @media screen and (max-width: 375px) {
      .w-img{
         width: 100%;

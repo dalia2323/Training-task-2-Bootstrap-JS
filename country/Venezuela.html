@@ -14,29 +14,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
 </head>
-<body class="bg-very-dark-blue">
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark-blue w-auto">
+        <nav class="navbar navbar-expand-lg navbar-light  w-auto shadow-sm">
             <div class="container-fluid ms-lg-5">
-                <a class="navbar-brand text-light" href="#">Where in the world?</a>
-                <button class="btn btn-sm mode-toggle me-lg-5 text-light" id="darkModeToggle">
-                    <i class="fa-regular fa-moon"></i> Dark Mode </button>
+                <a class="navbar-brand " href="../index.html"><b>Where in the world?</b></a>
+                <button class="btn btn-sm mode-toggle me-lg-5" id="darkModeToggle">
+                    <i class="fa-regular fa-moon" id="darkModeIcon"></i> Dark Mode
+                </button>
             </div>
         </nav>
     </header>
-    <div class="container-fluid  overflow-hidden text-light mt-5">
+    <div class="container-fluid overflow-hidden mt-5">
         <div class="row">
             <div class="col-md-6 col-sm-12 ps-lg-5">
                 <a type="button" href="../index.html"
-                    class="btn btn-dark-blue mt-lg-2 rounded-2 btn-sm w-width d-block text-light">
+                    class="btn  mt-lg-2 rounded-2 btn-sm w-width d-block shadow-sm back-button" >
                     <i class="fa-solid fa-arrow-left pe-2"></i>
                     Back</a>
-                <img src="../img/al.svg" class="img-fluid w-img mt-5 ">
+                <img src="../img/ve.svg" class="img-fluid w-img mt-5 ">
             </div>
             <div class="col-md-6 col-sm-12 ">
                 <div class="row mt-5">
-                    <div class="col-md-6 col-sm-12  pt-lg-5 ">
-                        <h2 class="mt-3 mb-4">albania</h2>
+                    <div class="col-md-6 col-sm-12  pt-lg-5">
+                        <h2 class="mt-3 mb-4">Venezuela</h2>
                         <div class="fw-lighter fs-6 detail">
                             <ul class="list-unstyled">
                                 <li><b>Native Name</b>: Deutschland </li>
@@ -57,17 +58,19 @@
                 </div>
                 <div class="row  pt-lg-4">
                     <div class="col-md-12 col-sm-12 fw-lighter detail">
-                        <div class=" d-flex country-border bg-very-dark-blue">
+                        <div class=" d-flex country-border ">
                             <div class="d-inline-block"><b>Border Countries:</b></div>
-                            <span class=" d-inline-block w-width ms-2 bg-dark-blue shadow-lg">France </span>
-                            <span class=" d-inline-block w-width ms-2 bg-dark-blue shadow-lg">Belgium</span>
-                            <span class=" d-inline-block w-width ms-2 bg-dark-blue shadow-lg">Netherlands</span>
+                            <span class=" d-inline-block w-width ms-2  shadow-sm">France </span>
+                            <span class=" d-inline-block w-width ms-2  shadow-sm">Belgium</span>
+                            <span class=" d-inline-block w-width ms-2  shadow-sm">Netherlands</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+    </div>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/country.js"></script>
 </body>
 </html>
