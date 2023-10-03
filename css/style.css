@@ -27,7 +27,7 @@
     border-radius: 5px;
   }
   .w-width{
-    max-width:80%!important ;
+    width:80%!important ;
   }
   .bg-very-dark-blue{
     background-color: #202c37;
@@ -72,8 +72,64 @@ font-weight: bolder;
     cursor: pointer;
   }
 a:hover{
-  color: #ffff;
+  color: unset;
 }
+/*  */
+header{
+  background-color: #ffff;
+}
+body{
+  background-color: #fafafa;
+}
+.dark-mode {
+  background-color: #202c37;;
+  color: #fff;
+}
+
+.dark-mode .navbar  {
+  background-color: #2b3945;
+  color: #fff;
+}
+.dark-mode #darkModeToggle{
+  color: #fff;
+}
+.dark-mode .card {
+  background-color: #2b3945;
+  color: #fff;
+  border: none;
+}
+
+.dark-mode .card-title {
+  color: #fff;
+}
+
+.dark-mode .card-text {
+  color: #ccc;
+}
+.dark-mode .search {
+  background-color: #2b3945;
+  color: #fff;
+}
+
+.dark-mode .category {
+  background-color: #2b3945;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+/* Add more styles for dark mode as needed */
+These styles will apply dark mode styling to the search class (which is your search input field) and the .category class (which is your <select> element).
+
+With these changes, when dark mode is active, the search input and select element will have a dark background and light text color to match the dark theme. Adjust the CSS styles as needed to achieve the desired appearance for these elements in dark mode.
+
+
+
+
+
+
+
+/* Add more styles for dark mode as needed */
+
 @media screen and (max-width: 375px) {
 .display-block-responsive{
   display: block !important;

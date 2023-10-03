@@ -16,12 +16,14 @@
 </head>
 <title>Document</title>
 </head>
-<body class="bg-very-dark-blue">
-   <header> <nav class="navbar navbar-expand-lg navbar-light bg-dark-blue w-auto">
+<body class="">
+   <header> <nav class="navbar navbar-expand-lg shadow-sm  w-auto">
         <div class="container-fluid ms-lg-5">
-            <a class="navbar-brand text-light" href="#">Where in the world?</a>
-            <button class="btn btn-sm mode-toggle me-lg-5 text-light" id="darkModeToggle">
-                <i class="fa-regular fa-moon"></i> Dark Mode </button>
+            <a class="navbar-brand " href="#">Where in the world?</a>
+            <button class="btn btn-sm mode-toggle me-lg-5" id="darkModeToggle">
+                <i class="fa-regular fa-moon"></i> Dark Mode
+            </button>
+            
         </div>
     </nav>
 </header>
@@ -31,11 +33,11 @@
                 <div class="d-flex justify-content-between display-block-responsive">
                     <div class="input-container">
                         <i class="fa-solid fa-magnifying-glass me-3" style="color: #858585;"></i>
-                        <input class="form-control rounded ms-2 me-3 w-22 bg-dark-blue text-dark search" type="text"
+                        <input class="form-control rounded ms-2 me-3 w-22   search shadow-sm" type="text"
                             placeholder="Search for a country...">
                     </div>
                     <div class="col-md-3">
-                        <select class="region-selector form-select w-50 ms-lg-5 bg-dark-blue text-light border-0 mt-4 category">
+                        <select class="region-selector form-select w-50 h-100 ms-lg-5 shadow-sm  border-0  category">
                             <option hidden>Filter by Region</option>
                             <option>no filter</option>
                             <option>Africa</option>
@@ -49,13 +51,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid ms-4 mt-4  w-auto text-light row" id="container">
-    
-      
+    <div class="container-fluid ms-4 mt-4  w-auto  row" id="container">
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-sm-2 mb-3 rounded ">
+
+        </div>
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
