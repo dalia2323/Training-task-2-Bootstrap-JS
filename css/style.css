@@ -123,4 +123,8 @@ body{
 .display-block-responsive{
   display: block !important;
 }
+.m-responsive{
+  margin-top: 5%;
+  margin-left: 3%;
+}
   }
